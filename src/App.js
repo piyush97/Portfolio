@@ -3,11 +3,9 @@ import './App.css';
 import Grid from '@material-ui/core/Grid';
 import 'typeface-roboto';
 import Typography from '@material-ui/core/Typography';
-const piyush = 
-{
-    textAlign: 'center',
-    color: '#757575'
-
+const piyush = {
+  textAlign: 'center',
+  color: '#757575'
 };
 
 class App extends Component {
