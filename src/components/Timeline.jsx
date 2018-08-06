@@ -29,6 +29,16 @@ class Timeline extends Component
             <p><a href='http://aidapp.in'>See Website</a></p>
           </div>
         </VerticalTimelineElement>
+        <VerticalTimelineElement className="vertical-timeline-element--work" date = "2018 - Current" iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }} >
+          <h3 className="vertical-timeline-element-title">Open Source Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle">FreeCodeCamp</h4>
+          <div>
+            <p>Open Source Developer for Bootstrap 4 and React Router in Free Code Camp Official Guides.</p>
+            <p>Writing Codes for Official FreeCodeCamp Website</p>
+            <p>Getting Pull Request Accepted by Senior Developers for Approval of changes</p>
+            <p><a href='http://freecodecamp.org'>See Website</a></p>
+          </div>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     );
   }
