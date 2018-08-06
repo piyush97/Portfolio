@@ -6,19 +6,25 @@ import Typography from '@material-ui/core/Typography';
 const piyush = 
 {
     textAlign: 'center',
+    color: '#757575'
 
 };
 
 class App extends Component {
   render() {
     return (
-      <Grid container spacing={24}>
-        <Grid item xs={12} sm={12} md={12} lg={12}>
-          <Typography variant="display3" style={piyush}>
-            Piyush Mehta
-          </Typography>
+      <div>
+        <Grid container spacing={24}>
+          <Grid item xs={12} sm={12} md={12} lg={12}>
+            <Typography variant="display3" style={piyush}>
+              Piyush Mehta
+            </Typography>
+            <Typography variant="subheading" style={piyush}>
+              Student || Web Developer || Future Data Scientist
+            </Typography>
+          </Grid>
         </Grid>
-      </Grid>
+      </div>
     );
   }
 }
