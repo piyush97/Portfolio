@@ -22,7 +22,7 @@ const styles = {
 function SimpleMediaCard(props) {
   const { classes } = props;
   return (
-  <Grid container spacing={24}>
+  <Grid container spacing={24} style={{backgroundColor:"#6762A6"}}>
     <Grid item xs={12} sm={4} md={4} lg={4}>
       <Card className={classes.card}>
         <CardMedia
@@ -114,9 +114,10 @@ function SimpleMediaCard(props) {
           </Typography>
           <Typography component="p">
            CryptoCurrency Dashboard
+                     Finds Market Cap for CryptoCurrency using D3Js and React
+
           </Typography>
           <Typography component="p">
-          Finds Market Cap for CryptoCurrency using D3Js and React
           </Typography>
         </CardContent>
         <CardActions>
@@ -125,7 +126,8 @@ function SimpleMediaCard(props) {
           </Button>
         </CardActions>
       </Card>
-    </Grid>    <Grid container xs={12} sm={4} md={4} lg={4}>
+    </Grid>    
+    <Grid container xs={12} sm={4} md={4} lg={4}>
       <Card className={classes.card}>
         <CardMedia
           className={classes.media}
@@ -137,10 +139,31 @@ function SimpleMediaCard(props) {
            CrypTrack
           </Typography>
           <Typography component="p">
-           CryptoCurrency App
+           CryptoCurrency App Finds Market Cap
+           for CryptoCurrency using React Native
+
           </Typography>
           <Typography component="p">
-          Finds Market Cap for CryptoCurrency using React Native
+          </Typography>
+        </CardContent>
+      </Card>
+    </Grid>
+    <Grid container xs={12} sm={4} md={4} lg={4}>
+      <Card className={classes.card}>
+        <CardMedia
+          className={classes.media}
+          image = "https://camo.githubusercontent.com/0f07ead0a6ffc94e2ccb66f2a527813fd1aae4e3/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f34487676634476336f59755a7464554557322f67697068792e676966"
+          title="Weather App"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="headline" component="h2">
+           Weather App 
+          </Typography>
+          <Typography component="p">
+           Nodejs Weather App Finds Weather using OpenWeather
+
+          </Typography>
+          <Typography component="p">
           </Typography>
         </CardContent>
       </Card>
