@@ -7,7 +7,8 @@ import Info from './components/Info';
 import Timeline from './components/Timeline';
 import ProjectCard from './components/ProjectCard';
 import Typography from '@material-ui/core/Typography';
-
+import Footer from './components/Footer';
+import PhotographyList from './components/PhotographyList';
 const piyush = {
   textAlign: 'center',
   color: '#757575',
@@ -29,7 +30,14 @@ class App extends Component {
             <Typography variant="subHeading" style={piyush}>
               Lil HardWork, Max Fun 
             </Typography>
+            <div style={{height:"40px"}}/>
             <ProjectCard />
+            <div style={{height:"40px"}}/>
+            <Typography variant="display3" style={piyush}>
+              I Click Moments Too!
+            </Typography>       
+            <PhotographyList />     
+            <Footer />
           </Grid>
         </Grid>
       </div>
