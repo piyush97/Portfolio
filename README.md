@@ -6,4 +6,4 @@ Timestamp: 2018-08-07 19:41:45 Tuesday
 
 >  WIP
 
-### Made with :fa-heart: by Piyush Mehta
+### Made with :heart: by Piyush Mehta
