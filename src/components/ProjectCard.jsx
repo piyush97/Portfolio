@@ -64,12 +64,39 @@ function SimpleMediaCard(props) {
           </Typography>
           <Typography component="p">
             GitHub Repository Scraper
+            </Typography>
+          <Typography component="p">
             Using React, Elastic Search, Redux and Open Source Datasets and Tachyons
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
             <a href="https://whispering-island-83455.herokuapp.com/">Visit</a>
+          </Button>
+        </CardActions>
+      </Card>
+    </Grid> 
+    <Grid item xs={12} sm={4} md={4} lg={4}>
+      <Card className={classes.card}>
+        <CardMedia
+          className={classes.media}
+          image = "https://preview.ibb.co/kprgAe/Screen_Shot_2018_08_07_at_11_27_53_AM.jpg"
+          title="JobScraper"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="headline" component="h2">
+            Job Scraper using Nodejs and React
+          </Typography>
+          <Typography component="p">
+           Job Scraper
+          </Typography>
+          <Typography component="p">
+          Finds Available Jobs for Engineering in Delhi, India
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small" color="primary">
+            <a href="http://piyushmehta.me/Job-scraper/"> Visit </a>
           </Button>
         </CardActions>
       </Card>
