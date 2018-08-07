@@ -22,7 +22,7 @@ const styles = {
 function SimpleMediaCard(props) {
   const { classes } = props;
   return (
-   <Grid container spacing={24}>
+  <Grid container spacing={24}>
     <Grid item xs={12} sm={4} md={4} lg={4}>
       <Card className={classes.card}>
         <CardMedia
@@ -64,7 +64,7 @@ function SimpleMediaCard(props) {
           </Typography>
           <Typography component="p">
             GitHub Repository Scraper
-            Using React, Elastic Search and Open Source Datasets and Tachyons
+            Using React, Elastic Search, Redux and Open Source Datasets and Tachyons
           </Typography>
         </CardContent>
         <CardActions>
