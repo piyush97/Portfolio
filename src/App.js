@@ -5,6 +5,13 @@ import 'typeface-roboto';
 import Name from './components/Name';
 import Info from './components/Info';
 import Timeline from './components/Timeline';
+import ProjectCard from './components/ProjectCard';
+import Typography from '@material-ui/core/Typography';
+
+const piyush = {
+  textAlign: 'center',
+  color: '#757575'
+};
 
 class App extends Component {
   render() {
@@ -15,6 +22,10 @@ class App extends Component {
             <Name />
             <Info />
             <Timeline />
+            <Typography variant="display3" style={piyush}>
+              Projects 
+            </Typography>
+            <ProjectCard />
           </Grid>
         </Grid>
       </div>
