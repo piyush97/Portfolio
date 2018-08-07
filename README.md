@@ -6,4 +6,6 @@ Timestamp: 2018-08-07 19:41:45 Tuesday
 
 >  WIP
 
+[![Build Status](https://travis-ci.com/piyush97/portfolio.svg?token=g3CxDf8EXQoxGMAHdh9U&branch=master)](https://travis-ci.com/piyush97/portfolio)
+
 ### Made with :heart: by Piyush Mehta
