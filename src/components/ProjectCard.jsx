@@ -125,6 +125,25 @@ function SimpleMediaCard(props) {
           </Button>
         </CardActions>
       </Card>
+    </Grid>    <Grid container xs={12} sm={4} md={4} lg={4}>
+      <Card className={classes.card}>
+        <CardMedia
+          className={classes.media}
+          image = "https://camo.githubusercontent.com/ec96d493236397255bdc7a52bf3852e528c89215/68747470733a2f2f692e696d6775722e636f6d2f745171486f32662e706e67"
+          title="CrypTrack"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="headline" component="h2">
+           CrypTrack
+          </Typography>
+          <Typography component="p">
+           CryptoCurrency App
+          </Typography>
+          <Typography component="p">
+          Finds Market Cap for CryptoCurrency using React Native
+          </Typography>
+        </CardContent>
+      </Card>
     </Grid>
   </Grid>
   );
