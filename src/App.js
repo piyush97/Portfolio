@@ -9,6 +9,7 @@ import ProjectCard from './components/ProjectCard';
 import Typography from '@material-ui/core/Typography';
 import Footer from './components/Footer';
 import PhotographyList from './components/PhotographyList';
+
 const piyush = {
   textAlign: 'center',
   color: '#757575',
