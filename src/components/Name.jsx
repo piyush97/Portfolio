@@ -9,7 +9,7 @@ const piyush = {
 class Name extends Component {
   render(){
     return( 
-      <Typography variant="display3" style={piyush}>
+      <Typography variant="display4" style={piyush}>
         Piyush Mehta
       </Typography>
     );
