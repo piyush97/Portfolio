@@ -9,9 +9,8 @@ import ProjectCard from './components/ProjectCard';
 import Typography from '@material-ui/core/Typography';
 import Footer from './components/Footer';
 import PhotographyList from './components/PhotographyList';
-import Skillset from './Skillset';
+import Skillset from './components/Skillset';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faStroopwafel);
@@ -47,10 +46,13 @@ class App extends Component {
              <Typography variant="display3" style={piyush}>
              Skills
             </Typography> 
-            <Typography variant="subHeading" style={piyush}>
+            
+            <Typography variant="subheading" style={piyush}>
               I can say I’ m quite good at
             </Typography>  
+            <div style={{height:"40px"}}/>
             <Skillset />
+            <div style={{height:"40px"}}/>
             <Footer />
           </Grid>
         </Grid>
