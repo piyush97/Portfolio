@@ -8,10 +8,11 @@ import Timeline from './components/Timeline';
 import ProjectCard from './components/ProjectCard';
 import Typography from '@material-ui/core/Typography';
 import Footer from './components/Footer';
-import PhotographyList from './components/PhotographyList';
+// import PhotographyList from './components/PhotographyList';
 import Skillset from './components/Skillset';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+import Tools from './components/Tools';
 
 library.add(faStroopwafel);
 
@@ -39,19 +40,24 @@ class App extends Component {
             <div style={{height:"40px"}}/>
             <ProjectCard />
             <div style={{height:"40px"}}/>
-            <Typography variant="display3" style={piyush}>
+           {/* <Typography variant="display3" style={piyush}>
               I Click Moments Too!
             </Typography>       
-            <PhotographyList />  
+            <PhotographyList />  */}
              <Typography variant="display3" style={piyush}>
              Skills
             </Typography> 
-            
             <Typography variant="subheading" style={piyush}>
               I can say I’ m quite good at
             </Typography>  
             <div style={{height:"40px"}}/>
             <Skillset />
+            <div style={{height:"40px"}}/>
+            <Typography variant="display3" style={piyush}>
+             Tools
+            </Typography> 
+            <div style={{height:"40px"}}/>
+            <Tools />
             <div style={{height:"40px"}}/>
             <Footer />
           </Grid>
