@@ -85,7 +85,7 @@ function SimpleMediaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2">
-            Job Scraper using Nodejs and React
+            Job Scraper using Node
           </Typography>
           <Typography component="p">
            Job Scraper
@@ -101,7 +101,7 @@ function SimpleMediaCard(props) {
         </CardActions>
       </Card>
     </Grid>
-    <Grid container xs={12} sm={4} md={4} lg={4} justify="center">
+    <Grid container xs={12} sm={4} md={4} lg={4}>
       <Card className={classes.card}>
         <CardMedia
           className={classes.media}
