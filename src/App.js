@@ -9,6 +9,12 @@ import ProjectCard from './components/ProjectCard';
 import Typography from '@material-ui/core/Typography';
 import Footer from './components/Footer';
 import PhotographyList from './components/PhotographyList';
+import Skillset from './Skillset';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faStroopwafel);
 
 const piyush = {
   textAlign: 'center',
@@ -37,7 +43,14 @@ class App extends Component {
             <Typography variant="display3" style={piyush}>
               I Click Moments Too!
             </Typography>       
-            <PhotographyList />     
+            <PhotographyList />  
+             <Typography variant="display3" style={piyush}>
+             Skills
+            </Typography> 
+            <Typography variant="subHeading" style={piyush}>
+              I can say I’ m quite good at
+            </Typography>  
+            <Skillset />
             <Footer />
           </Grid>
         </Grid>
