@@ -101,6 +101,31 @@ function SimpleMediaCard(props) {
         </CardActions>
       </Card>
     </Grid>
+    <Grid container xs={12} sm={4} md={4} lg={4} justify="center">
+      <Card className={classes.card}>
+        <CardMedia
+          className={classes.media}
+          image = "https://camo.githubusercontent.com/9cb4f724c553db03d55ed1a9f5bbb530a2fc55b2/68747470733a2f2f707265766965772e6962622e636f2f6b3830586f382f622e706e67"
+          title="DashCrypt"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="headline" component="h2">
+           DashCrypt
+          </Typography>
+          <Typography component="p">
+           CryptoCurrency Dashboard
+          </Typography>
+          <Typography component="p">
+          Finds Market Cap for CryptoCurrency using D3Js and React
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small" color="primary">
+            <a href="https://dashcrypt.herokuapp.com/"> Visit </a>
+          </Button>
+        </CardActions>
+      </Card>
+    </Grid>
   </Grid>
   );
 }
