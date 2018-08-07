@@ -10,7 +10,8 @@ import Typography from '@material-ui/core/Typography';
 
 const piyush = {
   textAlign: 'center',
-  color: '#757575'
+  color: '#757575',
+  fontFace:'Roboto'
 };
 
 class App extends Component {
@@ -24,6 +25,9 @@ class App extends Component {
             <Timeline />
             <Typography variant="display3" style={piyush}>
               Projects 
+            </Typography>
+            <Typography variant="subHeading" style={piyush}>
+              Lil HardWork, Max Fun 
             </Typography>
             <ProjectCard />
           </Grid>
